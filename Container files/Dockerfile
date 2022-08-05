@@ -1,4 +1,4 @@
-FROM postgres:13-alpine
+FROM rav28/curator-modified-psql:v0.0.1
 
 # Install python/pip
 ENV PYTHONUNBUFFERED=1

@@ -74,8 +74,8 @@ if __name__ == "__main__":
                 print(f"User info: {curr_user_email, email_item}.")
                 email_addrs = [curr_user_email] + email_item.get("cc", [])
                 send_email(email_user, email_pass, email_addrs, usage)
-            time.sleep(60)
+            time.sleep(86400)
         else:
-            print("Not exceedig the limit, rechecking in 20 seconds")
-            time.sleep(20)
+            print("Not exceedig the limit, rechecking in 60 seconds")
+            time.sleep(60)
         
