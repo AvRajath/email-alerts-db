@@ -1,3 +1,3 @@
 #!/bin/sh
-echo "Hello world"
-python ./test.py &
+
+python ./email_alert.py &
